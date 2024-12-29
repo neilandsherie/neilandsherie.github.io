@@ -1,0 +1,559 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #7bb4bd;
+    color: #413d3e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.heading a:hover {
+    font-size: 72px;
+    font-family: 'Dancing Script';
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.heading a:active {
+    font-size: 72px;
+    font-family: 'Dancing Script';
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #413d3e;
+}
+
+.heading a:visited {
+    font-size: 72px;
+    font-family: 'Dancing Script';
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #413d3e;
+}
+
+.heading a:link {
+    font-size: 72px;
+    font-family: 'Dancing Script';
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #413d3e;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #413d3e;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#hero {
+    /*background-image: url('../images/test_nz.jpg');
+    background-size: cover;*/
+    color: #2c7083;
+    font-weight: bold;
+    /*text-shadow: 2px 2px grey;*/
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e4ded3;
+    /*background-color: #86bf8f;*/
+}
+
+#hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.getaway {
+    font-size: 80;
+    font-family: 'Dancing Script';
+}
+
+.container h3 {
+    font-size: 48px;
+    color: #01a1b1;
+    font-family: 'Dancing Script';
+    margin-bottom: 10px;
+}
+
+.front_page h3 {
+    font-size: 38px;
+    color: #01a1b1;
+    margin-bottom: 10px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.front_page {
+    text-align: center;
+    padding: 150px 150px 150px 150px;
+}
+
+/*
+#about {
+    padding: 50px 0;
+    background-color: #dfe8f1;
+    text-align: left;
+}
+*/
+
+#neighbourhood {
+    padding: 50px 0;
+    background-color: #87695f;
+    text-align: left;
+}
+
+#getting_around {
+    padding: 50px 0;
+    background-color: #e4ded3;
+    text-align: left;
+}
+
+#blank1 {
+    padding: 30px 0;
+    background-color: #dfe8f1;
+}
+
+#contact {
+    padding: 10px 0;
+    background-color: #e4ded3;
+}
+
+#contact .phone {
+    display: inline-block;
+    padding: 20px 20px 100px 0px;
+
+}
+
+#contact .phone h5 {
+    font-size: 32px;
+    font-family: serif;
+
+}
+
+#blank2 {
+    padding: 10px 0;
+    background-color: #dfe8f1;
+}
+
+footer {
+    background-color: #7bb4bd;
+    color: #413d3e;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* playground images on neighbourhood page */
+
+.playground div {
+    padding: 50px 50px 100px 100px;
+    align-items: center;
+}
+
+.playground {
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+
+.playground li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.playground li img {
+    width: 500px;
+    height: auto;
+}
+
+
+.social-icons {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons li img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Your existing styles */
+
+/* Slideshow styles */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Previous and next buttons */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* About Section */
+
+.about_information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+}
+
+.about_information .text {
+    flex: 0.75;
+    margin-right: 20px;
+    /* Adjust spacing between paragraph and image */
+}
+
+.about_information h3 {
+    padding: 50px 50px;
+    font-size: 28px;
+}
+
+.about_information p {
+    padding: 50px 50px;
+    font-size: 18px;
+}
+
+
+.about_information figure {
+    flex: 1.25;
+    max-width: 100%;
+    /* Adjust maximum width of the figure */
+    margin: 0;
+    padding: 40px 60px;
+    /* Reset margin */
+}
+
+.about_information img {
+    width: 100%;
+    /* Ensure the image fills its container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Accomodation Nav dropdown */
+
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    float: left;
+    display: block;
+    /*color: #f2f2f2;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #413d3e;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* travel adventures */
+
+.travel_adventures div {
+    margin-left: 10px;
+}
+
+.travel_adventures {
+    display: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+
+.travel_adventures h2 {
+    padding: 30px 50px;
+    font-size: 28px;
+    font-family: Georgia, serif;
+}
+
+
+
+/* Contact Us section */
+
+.contact_information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.contact_information h2 {
+    padding: 30px 50px;
+    font-size: 28px;
+    font-family: Georgia, serif;
+    color: #413d3e;
+}
+
+.contact_information h5 {
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: #413d3e;
+}
+
+.contact_information h4 {
+    font-size: 18px;
+    font-family: Georgia, serif;
+    color: #413d3e;
+}
+
+.contact_information .phone {
+    padding: 50px 50px;
+    font-size: 18px;
+    font-family: serif;
+}
+
+
+/* Accomodation page */
+
+.unit1_heading h2 {
+    text-align: left;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    padding: 50px 50px;
+}
+
+/* AirBnb and Adventure story link buttons */
+
+.btn {
+    background-color: hsl(195, 95%, 37%);
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e4ded3;
+    color: #413d3e;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.btn:active {
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
+}
+
+
+/* grid gallery section */
+
+#photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Adjust gap between images */
+    padding: 20px;
+}
+
+
+.photo {
+    flex: 1 0 calc(33.333% - 10px);
+    /* 3 columns with gap */
+    max-width: calc(33.333% - 10px);
+    /* 3 columns with gap */
+    border: 1px solid #ddd;
+    /* Add border between images */
+    border-radius: 10px;
+    /* Optional: Add border radius for a rounded border  */
+    transition: transform 0.3s ease;
+    /* Add transition effect for smooth hover */
+}
+
+.photo:hover {
+    transform: scale(1.1);
+    /* Scale up the photo on hover */
+}
+
+
+iframe {}
+
+/* grid gallery section 
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 40px;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.grid-item img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover img {
+    transform: scale(1.1);
+}
+
+.grid-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    justify: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay-content {
+    text-align: center
+}
+
+.overlay-content h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.overlay-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
