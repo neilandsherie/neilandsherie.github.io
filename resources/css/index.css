@@ -543,7 +543,7 @@ nav a:hover {
 
 .btn {
     background-color: hsl(195, 95%, 37%);
-    border-radius: 2px;
+    border-radius: 10px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -570,7 +570,7 @@ nav a:hover {
 @media (max-width: 600px) { 
     .btn { 
         padding: 10px; /* Reduced padding for mobile */ 
-        font-size: 12px;
+        font-size: 14px;
     } 
 } 
 
