@@ -12,7 +12,10 @@ const photoUrls = [
     './resources/images/gallery/gallery (1).jpeg',
     './resources/images/gallery/picture.jpeg',
     './resources/images/gallery/gallery (1).jpg',
-    './resources/images/gallery/gallery (3).jpg'
+    './resources/images/gallery/gallery (3).jpg',
+    './resources/images/gallery/IMG_5052.jpg',
+    './resources/images/gallery/IMG_3201.jpg',
+    './resources/images/gallery/IMG_4818.jpg'
     // Add more photo URLs as needed
 ];
 
