@@ -543,7 +543,7 @@ nav a:hover {
 
 .btn {
     background-color: hsl(195, 95%, 37%);
-    border-radius: 10px;
+    border-radius: 12px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
