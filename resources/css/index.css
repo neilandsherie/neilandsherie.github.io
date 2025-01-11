@@ -219,16 +219,32 @@ footer p {
 /* Mobile styles */ 
 @media (max-width: 600px) { 
     .playground div {
-        padding: 10px 10px;
-        align-items: center;
+        padding: 10px 0;
+    }
+
+    .playground li {
+        margin-right: 0; /* Remove margin for mobile */ 
+    }
+
+    .playground li img {
+        width: 100%;
+        height: auto;
     }
 }
 
 /* Tablet styles */ 
 @media (min-width: 601px) and (max-width: 768px) { 
     .playground div {
-        padding: 15px;
-        align-items: center;
+        padding: 15px 0;
+    }
+
+    .playground li {
+        margin-right: 10; /* Adjust spacing for tablets */
+    }
+
+    .playground li img {
+        width: 100%;
+        height: auto;
     }
 }
 
