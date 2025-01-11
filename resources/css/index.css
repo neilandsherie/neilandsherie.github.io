@@ -495,7 +495,7 @@ nav a:hover {
     padding: 50px 50px;
 }
 
-/* AirBnb and Adventure story link buttons */
+/* AirBnb buttons */
 
 .btn {
     background-color: hsl(195, 95%, 37%);
@@ -507,6 +507,7 @@ nav a:hover {
     padding: 14px;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -520,6 +521,14 @@ nav a:hover {
     font-size: 18px;
     transition: font-size .1s ease-in-out;
 }
+
+/* Mobile styles AirBnb buttons*/ 
+@media (max-width: 600px) { 
+    .btn { 
+        padding: 10px; /* Reduced padding for mobile */ 
+        font-size: 12px;
+    } 
+} 
 
 
 /* grid gallery section */
