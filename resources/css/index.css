@@ -288,47 +288,81 @@ footer p {
     right: 0;
 }
 
-/* About Section */
+/* About Section */ 
+.about_information { 
+    display: flex; 
+    align-items: center; 
+    justify-content: 
+    space-between; 
+    font-family: sans-serif; 
+    padding: 20px; /* Base padding */ 
+} 
 
-.about_information {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: sans-serif;
+.about_information .text { 
+    flex: 0.75; 
+    margin-right: 20px; /* Adjust spacing between paragraph and image */ 
+} 
 
-}
+.about_information h3 { 
+    padding: 20px 0; 
+    font-size: 28px; 
+} 
+.about_information p { 
+    padding: 20px 0; 
+    font-size: 18px; 
+} 
 
-.about_information .text {
-    flex: 0.75;
-    margin-right: 20px;
-    /* Adjust spacing between paragraph and image */
-}
+.about_information figure { 
+    flex: 1.25; 
+    max-width: 100%; /* Adjust maximum width of the figure */ 
+    margin: 0; 
+    padding: 20px 0; /* Reset margin */ 
+} 
 
-.about_information h3 {
-    padding: 50px 50px;
-    font-size: 28px;
-}
+.about_information img { 
+    width: 100%; /* Ensure the image fills its container */ 
+    height: auto; /* Maintain aspect ratio */ 
+} 
 
-.about_information p {
-    padding: 50px 50px;
-    font-size: 18px;
-}
-
-
-.about_information figure {
-    flex: 1.25;
-    max-width: 100%;
-    /* Adjust maximum width of the figure */
-    margin: 0;
-    padding: 40px 60px;
-    /* Reset margin */
-}
-
-.about_information img {
-    width: 100%;
-    /* Ensure the image fills its container */
-    height: auto;
-    /* Maintain aspect ratio */
+/* Mobile styles */ 
+@media (max-width: 600px) { 
+    .about_information { 
+        flex-direction: column; 
+        padding: 10px; /* Reduced padding for mobile */ 
+    } 
+    .about_information .text, .about_information figure { 
+        flex: 1; 
+        margin-right: 0; /* Remove margin for mobile */ 
+        padding: 10px 0; 
+    } 
+    .about_information h3 { 
+        font-size: 24px; 
+    } 
+    .about_information p { 
+        font-size: 16px; 
+    } 
+    .about_information figure { 
+        padding: 10px 0; 
+    } 
+} 
+    
+/* Tablet styles */ 
+@media (min-width: 601px) and (max-width: 768px) { 
+    .about_information { 
+        padding: 15px; /* Adjust padding for tablets */ 
+    } 
+    .about_information .text { 
+        margin-right: 10px; /* Adjust spacing for tablets */ 
+    } 
+    .about_information h3 { 
+        font-size: 26px; 
+    } 
+    .about_information p { 
+        font-size: 17px; 
+    } 
+    .about_information figure { 
+        padding: 15px 0; 
+    } 
 }
 
 /* Accomodation Nav dropdown */
