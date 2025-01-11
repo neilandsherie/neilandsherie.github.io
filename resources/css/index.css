@@ -214,6 +214,23 @@ footer p {
     height: auto;
 }
 
+/* playground images on neighbourhood page MOBILE*/
+
+/* Mobile styles */ 
+@media (max-width: 600px) { 
+    .playground div {
+        padding: 10px 10px;
+        align-items: center;
+    }
+}
+
+/* Tablet styles */ 
+@media (min-width: 601px) and (max-width: 768px) { 
+    .playground div {
+        padding: 15px;
+        align-items: center;
+    }
+}
 
 .social-icons {
     list-style-type: none;
