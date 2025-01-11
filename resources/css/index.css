@@ -98,6 +98,28 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
+
+
+/* Base styles */ 
+.front_page { 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+} 
+
+/* Mobile styles */ 
+@media (max-width: 600px) { 
+    .front_page { 
+        padding: 10px; } 
+} 
+
+/* Tablet styles */ 
+@media (min-width: 601px) and (max-width: 768px) { 
+    .front_page { 
+        padding: 15px; } 
+}
+
+/*
+
 .front_page h3 {
     font-size: 38px;
     color: #01a1b1;
@@ -107,13 +129,6 @@ nav ul li a {
 }
 
 .front_page {
-    text-align: center;
-    padding: clamp(10px, 5%, 30px);
-    max-width: 800px;
-    margin: auto;
-}
-
-/*.front_page {
     text-align: center;
     padding: 150px 150px 150px 150px;
 }
@@ -503,14 +518,6 @@ nav a:hover {
     /* Scale up the photo on hover */
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .container {
-        padding: 10px;
-    }
-}
 
 iframe {}
 
