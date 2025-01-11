@@ -214,12 +214,11 @@ footer p {
     height: auto;
 }
 
-/* playground images on neighbourhood page MOBILE*/
 
 /* Mobile styles */ 
 @media (max-width: 600px) { 
     .playground div {
-        padding: 10px 0;
+        padding: 10px 10px;
     }
 
     .playground li {
@@ -235,15 +234,15 @@ footer p {
 /* Tablet styles */ 
 @media (min-width: 601px) and (max-width: 768px) { 
     .playground div {
-        padding: 15px 0;
+        padding: 15px 10px;
     }
 
     .playground li {
-        margin-right: 10; /* Adjust spacing for tablets */
+        margin-right: 10px; /* Adjust spacing for tablets */
     }
 
     .playground li img {
-        width: 100%;
+        width: 700px;
         height: auto;
     }
 }
