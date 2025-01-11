@@ -218,7 +218,7 @@ footer p {
 /* Mobile styles */ 
 @media (max-width: 600px) { 
     .playground div {
-        padding: 20px 20px 40px 40px;
+        padding: 20px 20px 20px 20px;
     }
 
     .playground {
@@ -240,7 +240,7 @@ footer p {
 /* Tablet styles */ 
 @media (min-width: 601px) and (max-width: 768px) { 
     .playground div {
-        padding: 30px 30px 60px 60px;
+        padding: 30px 30px 30px 30px;
     }
 
     .playground {
