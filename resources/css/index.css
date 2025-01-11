@@ -108,8 +108,16 @@ nav ul li a {
 
 .front_page {
     text-align: center;
+    padding: clamp(10px, 5%, 30px);
+    max-width: 800px;
+    margin: auto;
+}
+
+/*.front_page {
+    text-align: center;
     padding: 150px 150px 150px 150px;
 }
+*/
 
 /*
 #about {
