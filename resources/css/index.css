@@ -194,6 +194,20 @@ footer p {
     font-size: 14px;
 }
 
+/* Mobile styles */ 
+@media (max-width: 600px) { 
+    footer {
+        padding: 10px 10px;
+    }
+}
+
+/* Tablet styles */ 
+@media (min-width: 601px) and (max-width: 768px) { 
+    footer {
+        padding: 50px 50px;
+    }
+} 
+
 /* playground images on neighbourhood page */
 
 .playground div {
