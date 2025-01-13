@@ -214,6 +214,19 @@ footer p {
     }
 } 
 
+/* extra unit 1 images*/
+
+.extra_unit1_images {
+    padding: 100px 100px 100px 100px;
+    align-items: center;
+}
+
+.extra_unit1_images img {
+    width: 100%;
+    height: auto;
+}
+
+
 /* playground images on neighbourhood page */
 
 .playground div {
