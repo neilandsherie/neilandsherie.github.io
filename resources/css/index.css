@@ -214,32 +214,6 @@ footer p {
     }
 } 
 
-/* extra unit 1 images*/
-
-.extra_unit1_images {
-    padding: 100px 100px 100px 100px;
-    align-items: center;
-}
-
-.extra_unit1_images img {
-    width: 100%;
-    height: auto;
-}
-
-/* Mobile styles */ 
-@media (max-width: 600px) { 
-    .extra_unit1_images {
-        padding: 20px 20px 20px 20px;
-    }
-}
-
-/* Tablet styles */ 
-@media (min-width: 601px) and (max-width: 768px) { 
-    .extra_unit1_images {
-        padding: 30px 30px 30px 30px;
-    }
-}
-
 
 /* playground images on neighbourhood page */
 
