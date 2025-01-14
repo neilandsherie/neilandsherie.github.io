@@ -221,6 +221,11 @@ footer p {
     align-items: center;
 }
 
+.extra_unit2_images img {
+    width: 100%;
+    height: auto;
+}
+
 /* Mobile styles */ 
 @media (max-width: 600px) { 
     .extra_unit2_images {
